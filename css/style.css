@@ -39,21 +39,21 @@
 
 /* Imported styles */
 
-@import url('https://web.archive.org/web/20180818145308cs_/https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
-@import url('https://web.archive.org/web/20180818145308cs_/https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 
 
 
-@import url(/web/20180818145308cs_/http://chelseacapital.co/css/bootstrap.min.css);
-@import url(/web/20180818145308cs_/http://chelseacapital.co/css/font-awesome.min.css);
-@import url(/web/20180818145308cs_/http://chelseacapital.co/css/hover.css);
-@import url(/web/20180818145308cs_/http://chelseacapital.co/css/jquery.bxslider.css);
-@import url(/web/20180818145308cs_/http://chelseacapital.co/css/owl.carousel.css);
-@import url(/web/20180818145308cs_/http://chelseacapital.co/css/owl.theme.default.min.css);
-@import url(/web/20180818145308cs_/http://chelseacapital.co/css/animate.min.css);
-@import url(/web/20180818145308cs_/http://chelseacapital.co/css/jquery.bootstrap-touchspin.css);
-@import url('/web/20180818145308cs_/http://chelseacapital.co/css/jquery.fancybox.css');
-@import url('/web/20180818145308cs_/http://chelseacapital.co/css/prettyPhoto.css');
+@import url(bootstrap.min.css);
+@import url(css/font-awesome.min.css);
+@import url(css/hover.css);
+@import url(css/jquery.bxslider.css);
+@import url(css/owl.carousel.css);
+@import url(css/owl.theme.default.min.css);
+@import url(css/animate.min.css);
+@import url(css/jquery.bootstrap-touchspin.css);
+@import url('css/jquery.fancybox.css');
+@import url('css/prettyPhoto.css');
 
 /*** Price filter***/
 @import url(/web/20180818145308cs_/http://chelseacapital.co/assets/price-filter/nouislider.css);
@@ -88,6 +88,10 @@
 /*==============================================
    Base Css
 ===============================================*/
+#hi{
+  font-family:;
+  color: #0808ae;
+}
 html,
 body { height: 100% }
 body {
@@ -121,6 +125,8 @@ a:focus {
 img {
 	max-width: 100%;
     height: auto;
+    resize: vertical;
+  overflow: auto;
 }
 i {
 	font-style: normal;
